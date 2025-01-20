@@ -55,6 +55,9 @@ module.exports = {
     getGTINOwner: function (server) {
         return require("./lib/gtinOwner").getGTINOwner(server);
     },
+    getFixedUrl: function (server) {
+        return require("./lib/fixed-urls").getFixedUrl(server);
+    },
     getMessagesPipe: function () {
         const opendsu = require("opendsu");
         return opendsu.loadApi("m2dsu").getMessagesPipe();
