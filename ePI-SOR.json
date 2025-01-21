@@ -1178,6 +1178,11 @@
                 "example": "",
                 "required": false
               },
+              "productRecall": {
+                "type": "boolean",
+                "example": false,
+                "required": false
+              },
               "strengths": {
                 "type": "array",
                 "required": false,
@@ -1263,6 +1268,11 @@
                 "type": "string",
                 "example": "",
                 "format": "YYMMDD"
+              },
+              "batchRecall": {
+                "type": "boolean",
+                "example": false,
+                "required": false
               },
               "packagingSiteName": {
                 "type": "string",
