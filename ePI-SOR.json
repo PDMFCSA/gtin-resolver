@@ -1183,6 +1183,11 @@
                 "example": false,
                 "required": false
               },
+              "genericName": {
+                "type": "string",
+                "example": "",
+                "required": "false"
+              },
               "strengths": {
                 "type": "array",
                 "required": false,
@@ -1273,6 +1278,46 @@
                 "type": "boolean",
                 "example": false,
                 "required": false
+              },
+              "importLicenseNumber": {
+                "type": "string",
+                "example": "",
+                "required": "false"
+              },
+              "dateOfManufacturing": {
+                "type": "string",
+                "example": "",
+                "format": "YYMMDD"
+              },
+              "manufacturerName": {
+                "type": "string",
+                "example": "",
+                "required": "false"
+              },
+              "manufacturerAddress1": {
+                "type": "string",
+                "example": "",
+                "required": "false"
+              },
+              "manufacturerAddress2": {
+                "type": "string",
+                "example": "",
+                "required": "false"
+              },
+              "manufacturerAddress3": {
+                "type": "string",
+                "example": "",
+                "required": "false"
+              },
+              "manufacturerAddress4": {
+                "type": "string",
+                "example": "",
+                "required": "false"
+              },
+              "manufacturerAddress5": {
+                "type": "string",
+                "example": "",
+                "required": "false"
               },
               "packagingSiteName": {
                 "type": "string",
